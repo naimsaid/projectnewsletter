@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>World Time</title>
+    <title>الأحرار</title>
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
@@ -19,6 +19,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- endinject -->
+	<script type="text/javascript" src="./assets/js/date_heure.js"></script>
   </head>
 
   <body>
@@ -151,9 +152,12 @@
                   since the 1500s.
                 </p>
               </div>
-              <div class="d-flex">
-                <span class="mr-3 text-danger">Wed, March 4, 2020</span>
-                <span class="text-danger">30°C,London</span>
+              <div class="d-flex text-danger">
+               
+				<span id="date_heure" ></span>
+            <script type="text/javascript">window.onload = date_heure('date_heure');</script>
+               
+				
               </div>
             </div>
           </div>

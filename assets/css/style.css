@@ -628,8 +628,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -18px;
-  margin-left: -18px;
+  margin-right: -22px;
+  margin-left: 31px;
 }
 
 .no-gutters {
@@ -652,7 +652,7 @@ pre code {
   position: relative;
   width: 100%;
   padding-right: 18px;
-  padding-left: 18px;
+  padding-left: 0px;
 }
 
 .col {
@@ -4448,6 +4448,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid #e7eaed;
   border-radius: 6px;
+  text-align :right;
 }
 
 .card > hr {
@@ -5781,7 +5782,7 @@ a.close.disabled {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -5894,7 +5895,7 @@ a.close.disabled {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -9379,7 +9380,7 @@ button.bg-dark:focus {
 }
 
 .text-left {
-  text-align: left !important;
+  text-align: right !important;
 }
 
 .text-right {

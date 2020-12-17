@@ -81,7 +81,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #3a3a3a;
-  text-align: left;
+  text-align: right;
   background-color: #fff;
 }
 
@@ -4095,8 +4095,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+
   margin-right: 38px;
   font-size: 1.25rem;
   line-height: inherit;
@@ -10192,7 +10191,7 @@ header .navbar .navbar-brand {
 }
 
 header .navbar .navbar-brand img {
-  width: 192px;
+  width: 150px;
 }
 
 @media (max-width: 999px) {
@@ -10214,7 +10213,7 @@ header .navbar .navbar-brand img {
 }
 
 header .navbar-top {
-  padding: 24px 0;
+  padding: 0px 0;
 }
 
 header .navbar-top .navbar-top-left-menu,
@@ -10297,7 +10296,7 @@ header .navbar-top .navbar-top-right-menu .nav-item:last-child .nav-link {
 }
 
 header .navbar-bottom {
-  padding-bottom: 24px;
+ 
 }
 
 @media (max-width: 999px) {
@@ -10395,7 +10394,7 @@ header .navbar-bottom .navbar-toggler {
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  padding: 24px;
+  padding: 0px;
 }
 
 .navbar-close {

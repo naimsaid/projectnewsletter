@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="zxx">
   <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8" />
@@ -9,60 +9,49 @@
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
-      href=".././assets/vendors/mdi/css/materialdesignicons.min.css"
+      href="../assets/vendors/mdi/css/materialdesignicons.min.css"
     />
     <link rel="stylesheet" href="../assets/vendors/aos/dist/aos.css/aos.css" />
+
     <!-- End plugin css for this page -->
     <link rel="shortcut icon" href="../assets/images/favicon.png" />
+
     <!-- inject:css -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- endinject -->
+	<script type="text/javascript" src="../assets/js/date_heure.js"></script>
   </head>
 
   <body>
     <div class="container-scroller">
       <div class="main-panel">
-        <!-- partial:../partials/_navbar.html -->
+        <!-- partial:partials/_navbar.html -->
         <header id="header">
           <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="navbar-top">
                 <div class="d-flex justify-content-between align-items-center">
                   <ul class="navbar-top-left-menu">
+                    
                     <li class="nav-item">
-                      <a href="./index-inner.html" class="nav-link">Advertise</a>
+                      <a href="aboutus.html" class="nav-link">فريق العمل</a>
                     </li>
                     <li class="nav-item">
-                      <a href="./aboutus.html" class="nav-link">About</a>
+                      <a href="#" class="nav-link">الأحداث</a>
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link">Events</a>
+                      <a href="#" class="nav-link">اتصل بنا</a>
                     </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Write for Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">In the Press</a>
-                    </li>
+                    
                   </ul>
-                  <ul class="navbar-top-right-menu">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link"><i class="mdi mdi-magnify"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Login</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Sign in</a>
-                    </li>
-                  </ul>
+                 
                 </div>
               </div>
               <div class="navbar-bottom">
                 <div class="d-flex justify-content-between align-items-center">
                   <div>
                     <a class="navbar-brand" href="#"
-                      ><img src="../assets/images/logo.svg" alt=""
+                      ><img src="../assets/images/untitled.svg" alt=""
                     /></a>
                   </div>
                   <div>
@@ -92,25 +81,25 @@
                           <a class="nav-link" href="../index.html">أحدات</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./magazine.html">الاقتصاد</a>
+                          <a class="nav-link" href="magazine.html">الاقتصاد</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./business.html">  صوت وصورة</a>
+                          <a class="nav-link" href="business.html">  صوت وصورة</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./sports.html">حضاره</a>
+                          <a class="nav-link" href="sports.html">حضاره</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./art.html">سياسة</a>
+                          <a class="nav-link" href="art.html">سياسة</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./politics.html">مال وأعمال</a>
+                          <a class="nav-link" href="politics.html">مال وأعمال</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./travel.html">رياضة</a>
+                          <a class="nav-link" href="travel.html">رياضة</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./contactus.html">مجتمع</a>
+                          <a class="nav-link" href="contactus.html">مجتمع</a>
                         </li>
                       </ul>
                     </div>
@@ -143,235 +132,440 @@
           <div class="container">
             <div class="d-lg-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center">
-                <span class="badge badge-dark mr-3">Flash news</span>
+                <span class="badge badge-dark mr-3">الأحرار</span>
                 <p class="mb-0">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s.
+               جريدة مستقلة
                 </p>
               </div>
-              <div class="d-flex">
-                <span class="mr-3 text-danger">Wed, March 4, 2020</span>
-                <span class="text-danger">30°C,London</span>
+              <div class="d-flex text-danger">
+               
+				<span id="date_heure" ></span>
+            <script type="text/javascript">window.onload = date_heure('date_heure');</script>
+               
+				
               </div>
             </div>
           </div>
         </div>
         <div class="content-wrapper">
           <div class="container">
-            <div class="col-sm-12">
-              <div class="card" data-aos="fade-up">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h1 class="font-weight-600 mb-4"style="margin-left: 85%;">
-                        رياضة
-                      </h1>
+            <div class="row" data-aos="fade-up">
+              <div class="col-xl-8 stretch-card grid-margin">
+                <div class="position-relative">
+                  <img
+                    src="../assets/images/dashboard/tribunal.jpg"
+                    alt="banner"
+                    class="img-fluid"
+                  />
+                  <div class="banner-content">
+                    <div class="badge badge-danger fs-12 font-weight-bold mb-3">
+                      أخر الأخبار
+                    </div>
+                    <h1 class="mb-0"> القضاء يفرج عن محامي بنسليمان بعد جلسات ساخنةميين، بعدما تمت متابعته في البداية بتهمةاحتجاز ضابط </h1>
+                   
+                    <div class="fs-12">
+                      <span class="mr-2">Photo </span>10 Minutes ago
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-					
-					
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/production_de_vaccins_154096733.jpg"
-                              alt="banner"
-                              class="img-fluid" onclick="javascript:window.location='./new1.html';"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            
-							 <a href="./new1.html" class="nav-link">الإصابات بـ"كورونا" تتراجع في المغرب قبيل انطلاق حملة التلقيح</a>
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>13/12/2020
-                          </p>
-                          <p class="fs-15">
-                            منذ أيام، تشهد مؤشرات الوضعية الوبائية لفيروس كورونا المستجد بالمغرب تحسناً من حيث الأرقام الرسمية التي تُعلنها وزارة الصحة، يتزامن ذلك مع قُرب وصول اللقاح وبداية عملية التلقيح.
-                          </p>
+                </div>
+              </div>
+              <div class="col-xl-4 stretch-card grid-margin">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h2>أخر الأخبار</h2>
+
+                    <div
+                      class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between"
+                    >
+                      <div class="pr-3">
+                        <h5>الشرطة تمثّل جريمة قتل مهاجر إفريقي بمراكش</h5>
+                        <div class="fs-12">
+                          <span class="mr-2">Photo </span>10 Minutes ago
                         </div>
                       </div>
-					  
-					   <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_8.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-					  
-					   <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            
-							 <a href="./new1.html" class="nav-link">الإصابات بـ"كورونا" تتراجع في المغرب قبيل انطلاق حملة التلقيح</a>
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>13/12/2020
-                          </p>
-                          <p class="fs-15">
-                            منذ أيام، تشهد مؤشرات الوضعية الوبائية لفيروس كورونا المستجد بالمغرب تحسناً من حيث الأرقام الرسمية التي تُعلنها وزارة الصحة، يتزامن ذلك مع قُرب وصول اللقاح وبداية عملية التلقيح.
-                          </p>
-                        </div>
-                      </div>
-					  
-					  
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_8.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            No charges over 2017 battle bus cases
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
-                          </p>
-                          <p class="fs-15">
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
-                          </p>
-                        </div>
-                      </div>
-					  
-					  
-					  
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_9.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            Kaine: Trump Jr. may have committed treason
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
-                          </p>
-                          <p class="fs-15">
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_10.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            South Korea’s Moon Jae-in sworn in vowing to address
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
-                          </p>
-                          <p class="fs-15">
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_11.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            No charges over 2017 battle bus cases
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
-                          </p>
-                          <p class="fs-15">
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-4 grid-margin">
-                          <div class="rotate-img">
-                            <img
-                              src="../assets/images/sports/Sports_12.jpg"
-                              alt="banner"
-                              class="img-fluid"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-8 grid-margin">
-                          <h2 class="font-weight-600 mb-2">
-                            Kaine: Trump Jr. may have committed treason
-                          </h2>
-                          <p class="fs-13 text-muted mb-0">
-                            <span class="mr-2">Photo </span>10 Minutes ago
-                          </p>
-                          <p class="fs-15">
-                            Lorem Ipsum has been the industry's standard dummy
-                            text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a
-                            type specimen book.
-                          </p>
-                        </div>
+                      <div class="rotate-img">
+                        <img
+                          src="../assets/images/dashboard/Homicide-Marrakech2.jpg"
+                          alt="thumb"
+                          class="img-fluid img-lg"
+                        />
                       </div>
                     </div>
-                   
+
+                    <div
+                      class="d-flex border-bottom-blue pb-4 pt-4 align-items-center justify-content-between"
+                    >
+                      <div class="pr-3">
+                        <h5>شاب يضع حدا لحياته شنقا داخل منزله بتطوان</h5>
+                        <div class="fs-12">
+                          <span class="mr-2">Photo </span>10 Minutes ago
+                        </div>
+                      </div>
+                      <div class="rotate-img">
+                        <img
+                          src="../assets/images/dashboard/suicide.jpg"
+                          alt="thumb"
+                          class="img-fluid img-lg"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex pt-4 align-items-center justify-content-between"
+                    >
+                      <div class="pr-3">
+                        <h5>محكمة الاستئناف تؤخر ملف مجموعة "كلامور</h5>
+                        <div class="fs-12">
+                          <span class="mr-2">Photo </span>10 Minutes ago
+                        </div>
+                      </div>
+                      <div class="rotate-img">
+                        <img
+                          src="../assets/images/dashboard/Cours-Marrakech.jpg"
+                          alt="thumb"
+                          class="img-fluid img-lg"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-lg-3 stretch-card grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h2>الاقسام</h2>
+                    <ul class="vertical-menu">
+                      <li><a href="#">أحدات</a></li>
+                      <li><a href="#">الاقتصاد</a></li>
+                      <li><a href="#">صوت وصورة</a></li>
+                      <li><a href="#">حضاره</a></li>
+                      <li><a href="#">سياسة</a></li>
+                      <li><a href="#">مال وأعمال</a></li>
+                      <li><a href="#">رياضة</a></li>
+                      <li><a href="#">مجتمع</a></li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 stretch-card grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-4 grid-margin">
+                        <div class="position-relative">
+                          <div class="rotate-img">
+                            <img
+                              src="../assets/images/dashboard/cadavre_police.jpg"
+                              alt="thumb"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="badge-positioned">
+                            <span class="badge badge-danger font-weight-bold"
+                              >Flash news</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-8  grid-margin">
+                        <h2 class="mb-2 font-weight-600">
+                          غموض يلف وفاة شاب داخل شقة في بنسركاو
+                        </h2>
+                        <div class="fs-13 mb-2">
+                          <span class="mr-2">Photo </span>10 Minutes ago
+                        </div>
+                        <p class="mb-0">
+                          غموض يلف وفاة شاب داخل شقة في بنسركاو
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-4 grid-margin">
+                        <div class="position-relative">
+                          <div class="rotate-img">
+                            <img
+                              src="../assets/images/dashboard/accident-safi.jpg"
+                              alt="thumb"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="badge-positioned">
+                            <span class="badge badge-danger font-weight-bold"
+                              >Flash news</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-8  grid-margin">
+                        <h2 class="mb-2 font-weight-600">
+                         مصرع أربعة أشخاص في حادثة سير نواحي آسفي
+                        </h2>
+                        <div class="fs-13 mb-2">
+                          <span class="mr-2">Photo </span>10 Minutes ago
+                        </div>
+                        <p class="mb-0">
+                          لفظ 4 أشخاص أنفاسهم الأخيرة، الأحد، في حادثة سير وقعت بإقليم آسفي
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="position-relative">
+                          <div class="rotate-img">
+                            <img
+                              src="../assets/images/dashboard/Disparition-Houssin.jpg"
+                              alt="thumb"
+                              class="img-fluid"
+                            />
+                          </div>
+                          <div class="badge-positioned">
+                            <span class="badge badge-danger font-weight-bold"
+                              >Flash news</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-8">
+                        <h2 class="mb-2 font-weight-600">
+                          اختفاء طفل نواحي اشتوكة .. الأسرة مكلومة وبذرة الأمل قائمة
+                        </h2>
+                        <div class="fs-13 mb-2">
+                          <span class="mr-2">Photo </span>10 Minutes ago
+                        </div>
+                        <p class="mb-0">
+                         لا زال الطفل الحسين واكريم، مختفٍ منذ نحو شهرين، في ظروف غامضة، دون أن يترك وراءه أية آثار أو تفاصيل، ولو جزئية، قد تمكّن من الوصول إليه.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-sm-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="card-title">
+                          Video
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6 grid-margin">
+                            <div class="position-relative">
+                              <div class="rotate-img">
+                                <img
+                                  src="../assets/images/dashboard/home_7.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="badge-positioned w-90">
+                                <div
+                                  class="d-flex justify-content-between align-items-center"
+                                >
+                                  <span
+                                    class="badge badge-danger font-weight-bold"
+                                    >Lifestyle</span
+                                  >
+                                  <div class="video-icon">
+                                    <i class="mdi mdi-play"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-6 grid-margin">
+                            <div class="position-relative">
+                              <div class="rotate-img">
+                                <img
+                                  src="../assets/images/dashboard/home_8.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="badge-positioned w-90">
+                                <div
+                                  class="d-flex justify-content-between align-items-center"
+                                >
+                                  <span
+                                    class="badge badge-danger font-weight-bold"
+                                    >National News</span
+                                  >
+                                  <div class="video-icon">
+                                    <i class="mdi mdi-play"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6 grid-margin">
+                            <div class="position-relative">
+                              <div class="rotate-img">
+                                <img
+                                  src="../assets/images/dashboard/home_9.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="badge-positioned w-90">
+                                <div
+                                  class="d-flex justify-content-between align-items-center"
+                                >
+                                  <span
+                                    class="badge badge-danger font-weight-bold"
+                                    >Lifestyle</span
+                                  >
+                                  <div class="video-icon">
+                                    <i class="mdi mdi-play"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-6 grid-margin">
+                            <div class="position-relative">
+                              <div class="rotate-img">
+                                <img
+                                  src="../assets/images/dashboard/home_10.jpg"
+                                  alt="thumb"
+                                  class="img-fluid"
+                                />
+                              </div>
+                              <div class="badge-positioned w-90">
+                                <div
+                                  class="d-flex justify-content-between align-items-center"
+                                >
+                                  <span
+                                    class="badge badge-danger font-weight-bold"
+                                    >National News</span
+                                  >
+                                  <div class="video-icon">
+                                    <i class="mdi mdi-play"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div
+                          class="d-flex justify-content-between align-items-center"
+                        >
+                          <div class="card-title">
+                            Latest Video
+                          </div>
+                          <p class="mb-3">See all</p>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center border-bottom pb-2"
+                        >
+                          <div class="div-w-80 mr-3">
+                            <div class="rotate-img">
+                              <img
+                                src="../assets/images/dashboard/home_11.jpg"
+                                alt="thumb"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <h3 class="font-weight-600 mb-0">
+                            Apple Introduces Apple Watch
+                          </h3>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                        >
+                          <div class="div-w-80 mr-3">
+                            <div class="rotate-img">
+                              <img
+                                src="../assets/images/dashboard/home_12.jpg"
+                                alt="thumb"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <h3 class="font-weight-600 mb-0">
+                            SEO Strategy & Google Search
+                          </h3>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                        >
+                          <div class="div-w-80 mr-3">
+                            <div class="rotate-img">
+                              <img
+                                src="../assets/images/dashboard/home_13.jpg"
+                                alt="thumb"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <h3 class="font-weight-600 mb-0">
+                            Cycling benefit & disadvantag
+                          </h3>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center border-bottom pt-3 pb-2"
+                        >
+                          <div class="div-w-80 mr-3">
+                            <div class="rotate-img">
+                              <img
+                                src="../assets/images/dashboard/home_14.jpg"
+                                alt="thumb"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <h3 class="font-weight-600">
+                            The Major Health Benefits of
+                          </h3>
+                        </div>
+                        <div
+                          class="d-flex justify-content-between align-items-center pt-3"
+                        >
+                          <div class="div-w-80 mr-3">
+                            <div class="rotate-img">
+                              <img
+                                src="../assets/images/dashboard/home_15.jpg"
+                                alt="thumb"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <h3 class="font-weight-600 mb-0">
+                            Powerful Moments of Peace
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
         <!-- main-panel ends -->
         <!-- container-scroller ends -->
 
-        <!-- partial:../partials/_footer.html -->
+        <!-- partial:partials/_footer.html -->
         <footer>
           <div class="footer-top">
             <div class="container">
               <div class="row">
                 <div class="col-sm-5">
-                  <img src="../assets/images/logo.svg" class="footer-logo" alt="" />
+                  <img src="../assets/images/untitled.svg" class="footer-logo" alt="" />
                   <h5 class="font-weight-normal mt-4 mb-5">
-                    Newspaper is your news, entertainment, music fashion website. We
-                    provide you with the latest breaking news and videos straight from
-                    the entertainment industry.
+                    الصحيفة هي موقع الويب الخاص بك للأخبار والترفيه والموسيقى.نحن نقدم لك أحدث الأخبار ومقاطع الفيديو مباشرة من صناعة الترفيه.
                   </h5>
                   <ul class="social-media mb-3">
                     <li>
@@ -392,7 +586,7 @@
                   </ul>
                 </div>
                 <div class="col-sm-4">
-                  <h3 class="font-weight-bold mb-3">RECENT POSTS</h3>
+                  <h3 class="font-weight-bold mb-3">المشاركات الاخيرة</h3>
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="footer-border-bottom pb-2">
@@ -406,8 +600,7 @@
                           </div>
                           <div class="col-9">
                             <h5 class="font-weight-600">
-                              Cotton import from USA to soar was American traders
-                              predict
+                             استئنافية بني ملال تؤجل ملف "فتاة الوشم"
                             </h5>
                           </div>
                         </div>
@@ -427,8 +620,7 @@
                           </div>
                           <div class="col-9">
                             <h5 class="font-weight-600">
-                              Cotton import from USA to soar was American traders
-                              predict
+                              الشرطة تطلق الرصاص لتوقيف شخصين بمدينة فاس‎
                             </h5>
                           </div>
                         </div>
@@ -448,8 +640,7 @@
                           </div>
                           <div class="col-9">
                             <h5 class="font-weight-600 mb-3">
-                              Cotton import from USA to soar was American traders
-                              predict
+                              القضاء يفرج عن محامي بنسليمان بعد جلسات ساخنة
                             </h5>
                           </div>
                         </div>
@@ -458,34 +649,52 @@
                   </div>
                 </div>
                 <div class="col-sm-3">
-                  <h3 class="font-weight-bold mb-3">CATEGORIES</h3>
+                  <h3 class="font-weight-bold mb-3">الاقسام</h3>
                   <div class="footer-border-bottom pb-2">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Magazine</h5>
+                      <h5 class="mb-0 font-weight-600">أحدات</h5>
                       <div class="count">1</div>
                     </div>
                   </div>
                   <div class="footer-border-bottom pb-2 pt-2">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Business</h5>
+                      <h5 class="mb-0 font-weight-600">الاقتصاد</h5>
                       <div class="count">1</div>
                     </div>
                   </div>
                   <div class="footer-border-bottom pb-2 pt-2">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Sports</h5>
+                      <h5 class="mb-0 font-weight-600">صوت وصورة</h5>
                       <div class="count">1</div>
                     </div>
                   </div>
                   <div class="footer-border-bottom pb-2 pt-2">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Arts</h5>
+                      <h5 class="mb-0 font-weight-600">حضاره</h5>
                       <div class="count">1</div>
                     </div>
                   </div>
                   <div class="pt-2">
                     <div class="d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0 font-weight-600">Politics</h5>
+                      <h5 class="mb-0 font-weight-600">سياسة</h5>
+                      <div class="count">1</div>
+                    </div>
+                  </div>
+				   <div class="pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600">مال وأعمال</h5>
+                      <div class="count">1</div>
+                    </div>
+                  </div>
+				  <div class="pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600">رياضة</h5>
+                      <div class="count">1</div>
+                    </div>
+                  </div>
+				  <div class="pt-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0 font-weight-600">مجتمع</h5>
                       <div class="count">1</div>
                     </div>
                   </div>
@@ -499,10 +708,10 @@
                 <div class="col-sm-12">
                   <div class="d-sm-flex justify-content-between align-items-center">
                     <div class="fs-14 font-weight-600">
-                      © 2020 @ <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white"> BootstrapDash</a>. All rights reserved.
+                      © 2020 @ <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white"> Said NAIM</a>. All rights reserved.
                     </div>
                     <div class="fs-14 font-weight-600">
-                      Handcrafted by <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white">BootstrapDash</a>
+                       All rights reserved. <a href="https://www.bootstrapdash.com/" target="_blank" class="text-white">Said NAIM</a>
                     </div>
                   </div>
                 </div>
@@ -518,7 +727,6 @@
     <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- plugin js for this page -->
-
     <script src="../assets/vendors/aos/dist/aos.js/aos.js"></script>
     <!-- End plugin js for this page -->
     <!-- Custom js for this page-->
